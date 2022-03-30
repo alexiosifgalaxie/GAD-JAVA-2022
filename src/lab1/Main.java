@@ -1,3 +1,5 @@
+package lab1;
+
 public class Main {
     public static void fizzbuzz(){
         for(int i=1;i<101;i++)
