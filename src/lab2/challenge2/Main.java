@@ -60,7 +60,7 @@ public class Main {
         return aux.split("<");
     }
 
-    public static String[] query3(Film[] filmDatabase){ //presupun ca se cereau nume de filme si ca a existat o eroare in formularea cerintei
+    public static String[] query3(Film[] filmDatabase){
         String aux="";
         for (Film f : filmDatabase){
             for(Actor a : f.getActori())

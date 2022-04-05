@@ -1,8 +1,8 @@
 package lab2.challenge2;
 
 public class Studio {
-    String nume;
-    Film[] filme;
+    private String nume;
+    private Film[] filme;
 
     public String getNume() {
         return nume;

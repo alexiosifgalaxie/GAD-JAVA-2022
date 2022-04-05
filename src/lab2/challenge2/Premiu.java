@@ -1,8 +1,8 @@
 package lab2.challenge2;
 
 public class Premiu {
-    String nume;
-    Integer an;
+    private String nume;
+    private Integer an;
     public Premiu(String nume, Integer an) {
         this.nume = nume;
         this.an = an;
